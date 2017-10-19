@@ -1,0 +1,61 @@
+
+.contenedor{
+  height: 800px;
+  width: 800px;
+
+}
+.titulo{
+  height: 45px;
+  width: 600px;
+  background-color: #FACC2E;
+  border: 1px solid black;
+  font-size:medium;
+  margin: 0px;
+}
+.antes{
+  height: 420px;
+  width: 200px;
+  border: 1px solid black;
+}
+.monopoly{
+  height: 420px;
+  width: 200px;
+  border: 1px solid black;
+  /*font-size: medium;*/
+}
+.ahora{
+  height: 420px;
+  width: 200px;
+  border: 1px solid black;
+}
+/*.footer{
+  height: 35px;
+  width: 600px;
+  background-color: #FACC2E;
+  border: 1px solid black;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*h2, h3 {
+  text-align: center;
+}
+.p {
+  text-align: justify;
+}*/
+
+.img1{
+  width: 155px;
+  height: 160px;
+  border: 0px;
+}
+.img2{
+  width: 150px;
+  height: 160px;
+}
+
+/*.link {
+  color: #6A0888;
+  text-decoration: underline;
+}*/
