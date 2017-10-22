@@ -2,60 +2,79 @@
 .contenedor{
   height: 800px;
   width: 800px;
+  display: inline-block;
 
 }
 .titulo{
+  display: inline-block;
   height: 45px;
-  width: 600px;
+  width: 664px;
   background-color: #FACC2E;
   border: 1px solid black;
   font-size:medium;
   margin: 0px;
 }
+.titulo h3{
+   text-align: center;
+  font-weight: lighter;
+  padding-bottom: 3px;
+}
 .antes{
-  height: 420px;
-  width: 200px;
+  display:inline-block;
+  height: 500px;
+  width: 220px;
   border: 1px solid black;
+  text-align: center;
+  float: left;
 }
 .monopoly{
-  height: 420px;
-  width: 200px;
+  display: inline-block;
+  height: 500px;
+  width: 220px;
   border: 1px solid black;
-  /*font-size: medium;*/
+  text-align: center;
+  float: left;
+  overflow: hidden;
+}
+.monopoly p{
+  padding-top: 20px;
+  text-align:center;
+}
+.monopoly h2{
+  font-weight: bold;
+  padding-top: 25px;
 }
 .ahora{
-  height: 420px;
-  width: 200px;
+  display: inline-block;
+  height: 500px;
+  width: 220px;
   border: 1px solid black;
+  text-align: center;
+  float:left;
 }
-/*.footer{
+.footer{
+  display:block;
+  position: absolute;
   height: 35px;
-  width: 600px;
+  width: 664px;
   background-color: #FACC2E;
   border: 1px solid black;
-  position: absolute;
   text-align: center;
   font-weight: bold;
-}
+  top:520px;
 
-/*h2, h3 {
-  text-align: center;
 }
-.p {
-  text-align: justify;
-}*/
-
 .img1{
   width: 155px;
   height: 160px;
-  border: 0px;
+  margin-top:60px;
 }
 .img2{
   width: 150px;
   height: 160px;
+  margin-top: 60px;
 }
-
-/*.link {
+.link {
   color: #6A0888;
   text-decoration: underline;
-}*/
+}
